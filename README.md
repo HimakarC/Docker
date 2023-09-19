@@ -1,5 +1,5 @@
 # Installing Docker
-<b> sudo apt install docker <b> <br>
+<b> sudo apt install docker </b> <br>
 
 # To write a DockerFile: <br>
 --> We must use "Dockerfile" as the dockerfile name eerytime. <br>
