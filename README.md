@@ -2,10 +2,9 @@
 <b> sudo apt install docker </b> <br>
 
 After installing, you must perform these operations: <br>
-
 --> sudo usermod -aG docker ubuntu <br>
 
-<b>After performing about operation logout and login to the instance.<b> <br>
+<b>After performing above operation logout and login to the instance.<b> <br>
 
 # To write a DockerFile: <br>
 --> We must use "Dockerfile" as the dockerfile name eerytime. <br>
