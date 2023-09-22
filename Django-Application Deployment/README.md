@@ -4,4 +4,5 @@ docker build -t image_name . <br>
 --> After executing the above command, use: <br>
 docker run -d -p port_number:port_number image_name <br>
 
-This runs the django application continuosly without breaking the execution.
+This runs the django application continuosly without breaking the execution. <br>
+The execution of this commands should be done in the directory where the "manage.py" is present.
