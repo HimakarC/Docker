@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  web:
+    image: new  # Use the imagename you built earlier
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+
+  db:
+    image: postgres:15  # Official PostgreSQL image
+    environment:
+      POSTGRES_DB: django
+      POSTGRES_USER: django
+      POSTGRES_PASSWORD: 12345678
