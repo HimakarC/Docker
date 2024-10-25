@@ -1,5 +1,5 @@
 # Installing Docker
-<b> sudo apt install docker </b> <br>
+<b> sudo apt install docker.io </b> <br>
 
 After installing, you must perform these operations: <br>
 --> sudo usermod -aG docker ubuntu <br>
